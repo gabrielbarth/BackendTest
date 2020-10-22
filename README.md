@@ -20,8 +20,8 @@ Também há recurso para listar todos os livros considerando os preços em ordem
 
 Exemplo: http://localhost:5000/ **books**/<recurso>
 
-| Rota | Tipo da Requisição | Descrição | Corpo da requisição |
-| ---- | ------------------ | --------- ||
+|  Rota | Tipo da Requisição  | Corpo da requisição  | Descrição  | 
+|---|---|---|---|
 | **/books**  | GET                | Lista todos os livros do catálogo. | (não possui)       |
 | **/books** | POST                | Cria um novo livro. | { "name": "Nome do Livro", "price": 20.00, "specifications": { "Originally published": "Data de publicação",	"Author": "Nome do autor do livro","Page count": 183,	"Illustrator": ["Nome do Ilustrator"],	"Genres": ["Gênero 1",	"Gênero 2"}                         |
 | **/books/:id**         | GET               | Lista livro através de seu ID.             | (não possui) |
@@ -33,7 +33,6 @@ Exemplo: http://localhost:5000/ **books**/<recurso>
 | **/books/illustrator**         | POST               | Lista livros por ilustradores.             | {"illustrator": "nome do ilustrador do livro"} |
 | **/books/price/ascending**         | POST               | Lista livros por ordem crescente de preço.             | (não possui) |
 | **/books/price/descending**         | POST               | Lista livros por ordem decrescente de preço.             | (não possui) |
-
 
 
 ## Como executar os testes do projeto
@@ -49,7 +48,7 @@ Ao todo foram considerados 6 testes para o projeto, respectivamente:
  - Teste 5: Deve estar apto a listar livros através de ordem decrescente de seus preços;
  - Teste 6: Deve estar apto a listar um livro através considerando o frete (+20%).
 
-<p style="text-align:center"> ![Testes](./tests.png)</div>
+![Testes](./tests.png)
 
 ## Sobre o pattern e disposição dos diretórios e arquivos
 
@@ -64,8 +63,7 @@ A estrutura do projeto trata-se de basicamente três diretórios:
 
 A imagem a seguir expõe a estrutura de diretórios do projeto:
 
-
-<div style="text-align:center"> ![Estrutura de pastas](./structure.png)</div>
+![Estrutura de pastas](./structure.png)
 
 
 ## Sobre o desafio
