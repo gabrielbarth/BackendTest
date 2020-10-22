@@ -11,7 +11,7 @@ Também há recurso para listar todos os livros considerando os preços em ordem
 2- Entre no diretório principal do projeto `cd BackendTest` e instale as dependências `yarn` (altamente recomendável) ou `npm install`; <br>
 3- Execute-o através do comando: `yarn dev:server` ou `npm dev:server`; <br>
 4- Abra algum programa Cliente para realizar requisições a uma API REST, como Insominia, Postman, ou ainda, utilize o navegador; <br>
-5- Realize requisições nas rotas do projeto utilizando o método **http GET** para obter os dados, conforme descrito acima. <br>
+5- Realize requisições nas rotas do projeto utilizando o método **http GET** ou **POST** para obter os dados. <br>
 
 
 ### Recursos disponíveis:
