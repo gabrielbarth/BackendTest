@@ -31,8 +31,8 @@ Exemplo: http://localhost:5000/ **books**/<recurso>
 | **/books/price**         | POST               | Lista livros pelo preço.             | {"price": 10} |
 | **/books/genre**         | POST               | Lista livros por gênero.             | {"genre": "gênero do livro desejado"} |
 | **/books/illustrator**         | POST               | Lista livros por ilustradores.             | {"illustrator": "nome do ilustrador do livro"} |
-| **/books/price/ascending**         | POST               | Lista livros por ordem crescente de preço.             | (não possui) |
-| **/books/price/descending**         | POST               | Lista livros por ordem decrescente de preço.             | (não possui) |
+| **/books/price/ascending**         | GET               | Lista livros por ordem crescente de preço.             | (não possui) |
+| **/books/price/descending**         | GET               | Lista livros por ordem decrescente de preço.             | (não possui) |
 
 
 ## Como executar os testes do projeto
